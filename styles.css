@@ -1,0 +1,8 @@
+/* stylesheet */
+
+body {
+    display: flex;
+}
+.header {
+    display: flex;
+}
