@@ -2,7 +2,211 @@
 
 body {
     display: flex;
+    margin: 0;
+    font-family: Roboto, 'Helvetica Neue', sans-serif;
+    flex-direction: column;
+}
+.title {
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.header-links {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 .header {
     display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 16px;
+    padding-left: 225px;
+    padding-right: 225px;
+    align-items: center;  
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dog-walker {
+    width: 550px;
+    height: 250px;
+}
+.text-one {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.filler {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.left-box {
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  background-color: #1F2937;
+  padding-left: 225px;
+  padding-right: 225px;
+  width: 98%;
+}
+.title-one {
+    font-weight: bold;
+    font-size: 16px;
+    color: #F9FAF8;
+}
+.first-quarter {
+    display: flex;   
+    padding: 100px;
+    padding-left: 225px;
+    padding-right: 225px;
+    justify-content: start
+}
+.first-quarter {
+    background-color: #1F2937;
+}
+.second-quarter {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    padding-left: 225px;
+    padding-right: 225px;
+    justify-content: start
+}
+.third-quarter {
+    display: flex;  
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 225px;
+    padding-right: 225px;
+    background-color: #e5e7eb;
+    margin-top: 100px;
+    height: 400px;
+    width: 98%;
+    font-size: 36px;
+    font-style: italic;
+}
+.fourth-quarter {
+    display: flex;  
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 225px;
+    padding-right: 225px;
+    height: 350px;
+    width: 98%;
+    
+}
+button {
+        display: flex;
+        font-size: 24px;
+        color: #e5e7eb;
+        background-color: #ce1f19;
+        padding: 5px;
+        height: 40px;
+        border-radius: 4px;
+        border-style: solid;
+        border-color: #ce1f19;
+        justify-content: center;
+}
+
+.button-one {
+    display: flex;
+    font-size: 24px;
+    color: #e5e7eb;
+    background-color: #ce1f19;
+    padding: 5px;
+    height: 40px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #ce1f19;
+    justify-content: center;
+}
+.header-squares {
+    font-weight: 900;
+    font-size: 36px;
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.squares {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.square1,.square2,.square3,.square4 {
+    display: flex;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: #3882f6;
+    height: 200px;
+    width: 200px;
+}
+.containerone, .containertwo, .containerthree, .containerfour {
+    text-align: center;
+    
+}
+.petcarer {
+    height: 200px;
+    width: 200px;
+}   
+.textsquare {
+    font-weight: bold;
+    padding-top: 5px;
+}
+.main-box {
+    display: flex;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #1F2937;
+    border-width: 10px;
+    background-color: #1F2937;
+    gap: 15px ;
+    
+}
+.left-top, .left-bottom, .Newsletter {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.Newsletter {
+    font-size: 36px;
+    color: #F9FAF8;
+}
+.left-bottom {
+    color: #e5e7eb;
+}
+.button-two {
+    color: #3882f6;
+    display: flex;
+    font-size: 24px;
+    color: #e5e7eb;
+    background-color: #ce1f19;
+    padding: 5px;
+    height: 50px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #ce1f19;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    margin-top: 20px;
+    
 }
