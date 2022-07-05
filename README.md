@@ -1,4 +1,4 @@
-# Landing-page
+# Landing Page
 
 This is my example landing page made using CSS (flexbox), Javascript and HTML.
 
